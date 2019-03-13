@@ -1,3 +1,29 @@
+
 .App {
   text-align: center;
+  background-image: url("./smurfs.png");
+  color: white;
+  height: 1400px;
+  
 }
+.navigation{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  color: white;
+}
+
+.nav-link{
+  padding: 20px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.nav-link, active{
+  color: white;
+}
+
+.nav-link:hover{
+  color: purple;
+}
+
